@@ -1,8 +1,8 @@
-\# Multi-Building Electrical Load Risk Analysis and Mitigation Simulation
+# Multi-Building Electrical Load Risk Analysis and Mitigation Simulation
 
 
 
-\## Project Overview
+## Project Overview
 
 
 
@@ -18,7 +18,7 @@ This is an educational portfolio project. It is not a stamped engineering design
 
 
 
-\## System Scenario
+## System Scenario
 
 
 
@@ -26,37 +26,37 @@ The simulated system includes 3 buildings and 8 monitored assets:
 
 
 
-\### Building A
+### Building A
 
 
 
-\* Transformer\_A1
+* Transformer\_A1
 
-\* Main\_Panel\_A1
+* Main\_Panel\_A1
 
-\* Lighting\_Panel\_A1
-
-
-
-\### Building B
+* Lighting\_Panel\_A1
 
 
 
-\* Transformer\_B1
-
-\* Main\_Panel\_B1
-
-\* HVAC\_Panel\_B1
+### Building B
 
 
 
-\### Building C
+* Transformer\_B1
+
+* Main\_Panel\_B1
+
+* HVAC\_Panel\_B1
 
 
 
-\* Main\_Panel\_C1
+### Building C
 
-\* EV\_Charger\_Panel\_C1
+
+
+* Main\_Panel\_C1
+
+* EV\_Charger\_Panel\_C1
 
 
 
@@ -64,49 +64,49 @@ The equipment ratings were updated to align with a conceptual CAD Electrical sin
 
 
 
-\## Tools Used
+## Tools Used
 
 
 
-\* Python
+* Python
 
-\* pandas
+* pandas
 
-\* matplotlib
+* matplotlib
 
-\* NumPy
+* NumPy
 
-\* Excel
+* Excel
 
-\* AutoCAD Electrical / CAD single-line diagram concept
-
-
-
-\## Main Features
+* AutoCAD Electrical / CAD single-line diagram concept
 
 
 
-\* Generated a simulated 6-month hourly load dataset for 8 electrical assets across 3 buildings.
-
-\* Modeled asset-specific load behavior, temperature effects, voltage, current, capacity, and peak events.
-
-\* Calculated power demand, load percentage, capacity margin, load change rate, and sustained high-load conditions.
-
-\* Implemented multi-factor risk scoring to classify operating conditions as Normal, Warning, or High Risk.
-
-\* Simulated non-critical load reduction strategies for high-risk operating periods.
-
-\* Generated daily peak load plots and hourly inspection plots using matplotlib.
-
-\* Exported summary CSV files for Excel dashboard analysis.
-
-\* Built an Excel dashboard with normalized equipment risk score, risk event charts, and red/yellow/green risk categories.
-
-\* Created a conceptual CAD Electrical single-line diagram to connect monitored assets with electrical equipment hierarchy.
+## Main Features
 
 
 
-\## Risk Analysis Logic
+* Generated a simulated 6-month hourly load dataset for 8 electrical assets across 3 buildings.
+
+* Modeled asset-specific load behavior, temperature effects, voltage, current, capacity, and peak events.
+
+* Calculated power demand, load percentage, capacity margin, load change rate, and sustained high-load conditions.
+
+* Implemented multi-factor risk scoring to classify operating conditions as Normal, Warning, or High Risk.
+
+* Simulated non-critical load reduction strategies for high-risk operating periods.
+
+* Generated daily peak load plots and hourly inspection plots using matplotlib.
+
+* Exported summary CSV files for Excel dashboard analysis.
+
+* Built an Excel dashboard with normalized equipment risk score, risk event charts, and red/yellow/green risk categories.
+
+* Created a conceptual CAD Electrical single-line diagram to connect monitored assets with electrical equipment hierarchy.
+
+
+
+## Risk Analysis Logic
 
 
 
@@ -114,15 +114,15 @@ The project evaluates operating risk using multiple indicators:
 
 
 
-\* Load percentage
+* Load percentage
 
-\* Capacity margin
+* Capacity margin
 
-\* Load change rate
+* Load change rate
 
-\* Sustained high-load condition
+* Sustained high-load condition
 
-\* Voltage behavior
+* Voltage behavior
 
 
 
@@ -130,11 +130,11 @@ Risk levels are assigned using a multi-factor risk score:
 
 
 
-\* 0–1: Normal
+* 0–1: Normal
 
-\* 2–3: Warning
+* 2–3: Warning
 
-\* 4 or higher: High Risk
+* 4 or higher: High Risk
 
 
 
@@ -142,7 +142,7 @@ The 80% loading level is used as an engineering warning reference for monitoring
 
 
 
-\## Mitigation Simulation
+## Mitigation Simulation
 
 
 
@@ -150,11 +150,11 @@ The mitigation logic simulates operational load reduction actions, such as:
 
 
 
-\* Non-critical lighting reduction
+* Non-critical lighting reduction
 
-\* HVAC curtailment
+* HVAC curtailment
 
-\* EV charging demand response or delayed charging
+* EV charging demand response or delayed charging
 
 
 
@@ -162,7 +162,7 @@ The project compares original and mitigated load conditions to evaluate how simu
 
 
 
-\## Project Outputs
+## Project Outputs
 
 
 
@@ -170,21 +170,21 @@ The project generates:
 
 
 
-\* Simulated raw load data
+* Simulated raw load data
 
-\* Risk-analyzed data
+* Risk-analyzed data
 
-\* Mitigated load data
+* Mitigated load data
 
-\* Asset risk summary
+* Asset risk summary
 
-\* Mitigation summary
+* Mitigation summary
 
-\* Daily maximum load plots
+* Daily maximum load plots
 
-\* Hourly inspection plots
+* Hourly inspection plots
 
-\* Excel dashboard outputs
+* Excel dashboard outputs
 
 
 
@@ -206,7 +206,7 @@ outputs/summary/
 
 
 
-\## How to Run
+## How to Run
 
 
 
@@ -239,7 +239,7 @@ The pipeline runs the data generation, risk analysis, mitigation analysis, plott
 
 
 
-\## Limitations
+## Limitations
 
 
 
@@ -247,25 +247,25 @@ This project is a simulated portfolio project and does not include:
 
 
 
-\* Formal power flow analysis
+* Formal power flow analysis
 
-\* Short-circuit analysis
+* Short-circuit analysis
 
-\* Protection coordination
+* Protection coordination
 
-\* Breaker sizing
+* Breaker sizing
 
-\* Conductor sizing
+* Conductor sizing
 
-\* CT/PT ratio selection
+* CT/PT ratio selection
 
-\* Relay settings
+* Relay settings
 
-\* SCADA integration
+* SCADA integration
 
-\* Formal CEC compliance verification
+* Formal CEC compliance verification
 
-\* Stamped engineering design
+* Stamped engineering design
 
 
 
@@ -273,7 +273,7 @@ The CAD single-line diagram is conceptual and is used to visually align the simu
 
 
 
-\## Future Improvements
+## Future Improvements
 
 
 
@@ -281,17 +281,17 @@ Potential future improvements include:
 
 
 
-\* Add SQL database storage for simulated load data
+* Add SQL database storage for simulated load data
 
-\* Add Power BI or Streamlit dashboard
+* Add Power BI or Streamlit dashboard
 
-\* Improve upstream/downstream load dependency modeling
+* Improve upstream/downstream load dependency modeling
 
-\* Add panel schedule mapping
+* Add panel schedule mapping
 
-\* Expand CAD metadata for equipment tags and drawing references
+* Expand CAD metadata for equipment tags and drawing references
 
-\* Add more detailed facility operation scenarios
+* Add more detailed facility operation scenarios
 
 
 
