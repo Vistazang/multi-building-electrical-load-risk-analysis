@@ -1,0 +1,9 @@
+building_id,asset_id,asset_type,max_load_percent,average_load_percent,max_power_kw,min_capacity_margin_kw,warning_hours,high_risk_hours,sustained_high_load_hours
+Building_A,Lighting_Panel_A1,Lighting Panel,75.89,36.93,34.15,10.85,3,0,0
+Building_A,Main_Panel_A1,Main Panel,105.73,57.17,158.6,-8.6,181,7,142
+Building_A,Transformer_A1,Transformer,109.1,56.55,245.48,-20.48,149,6,131
+Building_B,HVAC_Panel_B1,HVAC Panel,103.65,50.64,77.74,-2.74,161,3,105
+Building_B,Main_Panel_B1,Main Panel,105.78,57.07,169.25,-9.25,162,6,132
+Building_B,Transformer_B1,Transformer,107.47,56.5,268.67,-18.67,154,6,131
+Building_C,EV_Charger_Panel_C1,EV Charger Panel,82.93,48.08,66.34,13.66,89,1,0
+Building_C,Main_Panel_C1,Main Panel,108.02,57.14,194.44,-14.44,164,3,136

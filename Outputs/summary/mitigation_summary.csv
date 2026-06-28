@@ -1,0 +1,9 @@
+building_id,asset_id,asset_type,max_load_before,max_load_after,average_load_before,average_load_after,total_power_reduction_kw,average_power_reduction_kw,max_power_reduction_kw,peak_load_reduction_percent,average_load_reduction_percent
+Building_A,Lighting_Panel_A1,Lighting Panel,75.89,69.82,36.93,36.92,12.24,0.0,2.73,6.07,0.01
+Building_A,Main_Panel_A1,Main Panel,105.73,92.49,57.17,56.65,3352.24,0.77,23.79,13.24,0.51
+Building_A,Transformer_A1,Transformer,109.1,92.74,56.55,56.11,4393.17,1.01,36.82,16.36,0.45
+Building_B,HVAC_Panel_B1,HVAC Panel,103.65,92.39,50.64,50.23,1323.19,0.3,11.66,11.26,0.41
+Building_B,Main_Panel_B1,Main Panel,105.78,92.46,57.07,56.62,3144.29,0.72,25.39,13.32,0.45
+Building_B,Transformer_B1,Transformer,107.47,91.35,56.5,56.04,4986.08,1.15,40.3,16.12,0.46
+Building_C,EV_Charger_Panel_C1,EV Charger Panel,82.93,81.35,48.08,47.89,645.47,0.15,6.63,1.58,0.19
+Building_C,Main_Panel_C1,Main Panel,108.02,92.46,57.14,56.69,3476.2,0.8,29.17,15.56,0.44
