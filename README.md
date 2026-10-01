@@ -122,7 +122,6 @@ The project evaluates operating risk using multiple indicators:
 
 * Sustained high-load condition
 
-* Voltage behavior
 
 
 
