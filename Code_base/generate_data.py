@@ -346,10 +346,9 @@ def generate_one_record(asset, timestamp):
 
     return record
 
-
 def generate_dataset():
     """
-    Generate 1 building × 3 assets × 7 days hourly data.
+    Generate 3 buildings × 8 assets × 181 days of hourly data.
     """
 
     records = []
